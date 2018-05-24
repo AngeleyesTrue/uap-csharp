@@ -1,10 +1,9 @@
 language: csharp
 solution: UAParser.sln
-install:
-  - nuget restore UAParser.sln
-  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 mono: none
 dotnet: 1.1.5
+install:
+  - dotnet restore
 script:
-  - xbuild /p:Configuration=Release UAParser.sln
-  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./UAParser.Tests/bin/Release/UAParser.Tests.dll
+  - dotnet build
+  - dotnet test UAParser.Tests/UAParser.Tests.csproj
