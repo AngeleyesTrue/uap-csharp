@@ -3,4 +3,4 @@ solution: UAParser.sln
 mono: none
 dotnet: 1.1.5
 script:
-  - ./build.bat
+  - build.bat
