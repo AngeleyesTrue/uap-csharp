@@ -2,8 +2,5 @@ language: csharp
 solution: UAParser.sln
 mono: none
 dotnet: 1.1.5
-install:
-  - dotnet restore
 script:
-  - dotnet build
-  - dotnet test UAParser.Tests/UAParser.Tests.csproj
+  - ./build.bat
