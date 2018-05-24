@@ -1,0 +1,4 @@
+language: csharp
+solution: UAParser.sln
+install:
+  - nuget restore UAParser.sln
