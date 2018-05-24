@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
     <PropertyGroup>
         <TargetFrameworks>netstandard1.0;netstandard1.3</TargetFrameworks>
@@ -12,9 +12,9 @@
         <RootNamespace>UAParser</RootNamespace>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>3.0.0</Version>
-        <PackageProjectUrl>https://github.com/ua-parser/uap-csharp</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/ua-parser/uap-csharp/blob/master/LICENSE</PackageLicenseUrl>
-        <RepositoryUrl>https://github.com/ua-parser/uap-csharp</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/AngeleyesTrue/uap-csharp</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/AngeleyesTrue/uap-csharp/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/AngeleyesTrue/uap-csharp</RepositoryUrl>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <FileVersion>3.0.0.0</FileVersion>
         <Company />
