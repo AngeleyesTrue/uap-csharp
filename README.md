@@ -47,6 +47,12 @@ Usage:
   Console.WriteLine(c.Device.Family);    // => "iPhone"
 ```
 
+- Test
+```
+.\packages\xunit.runner.console.2.1.0\tools\xunit.console.exe .\UAParser.Tests\bin\Debug
+\UAParser.Tests.dll
+```
+
 Authors:
 -------
 
