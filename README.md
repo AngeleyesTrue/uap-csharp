@@ -17,7 +17,15 @@ Make sure you pull down the submodules that includes the yaml files (otherwise y
 You can then build and run the tests by invoking the `build.bat` script
 
     .\build.bat
+	
+Update the embedded regexes
+------
+To pull the latest regexes into the project:
 
+	cd uap-core
+	git pull origin master
+
+	
 Usage:
 --------
 ```csharp
@@ -31,7 +39,6 @@ Usage:
   var uaParser = Parser.GetDefault();
   
   // get a parser using externally supplied yaml definitions
-  // var uaParser = Parser.FromYamlFile(pathToYamlFile);
   // var uaParser = Parser.FromYaml(yamlString);
 
   ClientInfo c = uaParser.Parse(uaString);
